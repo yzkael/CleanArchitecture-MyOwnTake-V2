@@ -1,0 +1,17 @@
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/bin/Debug/net9.0/Clean.Contracts.deps.json
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/bin/Debug/net9.0/Clean.Contracts.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/bin/Debug/net9.0/Clean.Contracts.pdb
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/bin/Debug/net9.0/Clean.Application.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/bin/Debug/net9.0/Clean.Domain.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/bin/Debug/net9.0/Clean.Application.pdb
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/bin/Debug/net9.0/Clean.Domain.pdb
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/Clean.Contracts.csproj.AssemblyReference.cache
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/Clean.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/Clean.Contracts.AssemblyInfoInputs.cache
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/Clean.Contracts.AssemblyInfo.cs
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/Clean.Contracts.csproj.CoreCompileInputs.cache
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/Clean.Co.FCD9445A.Up2Date
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/Clean.Contracts.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/refint/Clean.Contracts.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/Clean.Contracts.pdb
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/obj/Debug/net9.0/ref/Clean.Contracts.dll

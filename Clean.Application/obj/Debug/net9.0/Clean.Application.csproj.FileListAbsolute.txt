@@ -1,0 +1,15 @@
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/bin/Debug/net9.0/Clean.Application.deps.json
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/bin/Debug/net9.0/Clean.Application.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/bin/Debug/net9.0/Clean.Application.pdb
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/bin/Debug/net9.0/Clean.Domain.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/bin/Debug/net9.0/Clean.Domain.pdb
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Application.csproj.AssemblyReference.cache
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Application.AssemblyInfoInputs.cache
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Application.AssemblyInfo.cs
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Application.csproj.CoreCompileInputs.cache
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Ap.33428A71.Up2Date
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Application.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/refint/Clean.Application.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Application.pdb
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/ref/Clean.Application.dll
