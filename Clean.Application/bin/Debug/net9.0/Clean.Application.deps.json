@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v9.0": {
       "Clean.Application/1.0.0": {
         "dependencies": {
+          "Clean.Contracts": "1.0.0",
           "Clean.Domain": "1.0.0"
         },
         "runtime": {
           "Clean.Application.dll": {}
+        }
+      },
+      "Clean.Contracts/1.0.0": {
+        "runtime": {
+          "Clean.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Clean.Domain/1.0.0": {
@@ -26,6 +35,11 @@
   },
   "libraries": {
     "Clean.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clean.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

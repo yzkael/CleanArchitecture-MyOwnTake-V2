@@ -26,6 +26,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/Clean.Contracts.csproj": {
+                "projectPath": "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/Clean.Contracts.csproj"
+              },
               "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Domain/Clean.Domain.csproj": {
                 "projectPath": "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Domain/Clean.Domain.csproj"
               }
@@ -315,9 +318,6 @@
               "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/Clean.Application.csproj": {
                 "projectPath": "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/Clean.Application.csproj"
               },
-              "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/Clean.Contracts.csproj": {
-                "projectPath": "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Contracts/Clean.Contracts.csproj"
-              },
               "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Infrastructure/Clean.Infrastructure.csproj": {
                 "projectPath": "/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Infrastructure/Clean.Infrastructure.csproj"
               }
@@ -339,6 +339,18 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -13,3 +13,6 @@
 /home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/refint/Clean.Application.dll
 /home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Application.pdb
 /home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/ref/Clean.Application.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/bin/Debug/net9.0/Clean.Contracts.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/bin/Debug/net9.0/Clean.Contracts.pdb
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Application/obj/Debug/net9.0/Clean.Application.sourcelink.json

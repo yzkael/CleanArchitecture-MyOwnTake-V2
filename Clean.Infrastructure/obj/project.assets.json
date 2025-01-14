@@ -1884,6 +1884,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Clean.Contracts": "1.0.0",
           "Clean.Domain": "1.0.0"
         },
         "compile": {
@@ -1891,6 +1892,16 @@
         },
         "runtime": {
           "bin/placeholder/Clean.Application.dll": {}
+        }
+      },
+      "Clean.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Clean.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean.Contracts.dll": {}
         }
       },
       "Clean.Domain/1.0.0": {
@@ -5190,6 +5201,11 @@
       "type": "project",
       "path": "../Clean.Application/Clean.Application.csproj",
       "msbuildProject": "../Clean.Application/Clean.Application.csproj"
+    },
+    "Clean.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Clean.Contracts/Clean.Contracts.csproj",
+      "msbuildProject": "../Clean.Contracts/Clean.Contracts.csproj"
     },
     "Clean.Domain/1.0.0": {
       "type": "project",

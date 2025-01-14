@@ -17,3 +17,6 @@
 /home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Infrastructure/obj/Debug/net9.0/Clean.Infrastructure.pdb
 /home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Infrastructure/obj/Debug/net9.0/Clean.Infrastructure.genruntimeconfig.cache
 /home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Infrastructure/obj/Debug/net9.0/ref/Clean.Infrastructure.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Infrastructure/bin/Debug/net9.0/Clean.Contracts.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Infrastructure/bin/Debug/net9.0/Clean.Contracts.pdb
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Infrastructure/obj/Debug/net9.0/Clean.Infrastructure.sourcelink.json

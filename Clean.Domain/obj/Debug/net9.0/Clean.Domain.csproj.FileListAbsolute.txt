@@ -9,3 +9,4 @@
 /home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Domain/obj/Debug/net9.0/refint/Clean.Domain.dll
 /home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Domain/obj/Debug/net9.0/Clean.Domain.pdb
 /home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Domain/obj/Debug/net9.0/ref/Clean.Domain.dll
+/home/ismael/Documents/GitHub/CleanArchitecture-V2/Clean.Domain/obj/Debug/net9.0/Clean.Domain.sourcelink.json
