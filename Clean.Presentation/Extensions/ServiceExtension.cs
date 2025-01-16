@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Clean.Application.Interfaces;
 using Clean.Application.LoggerServices;
+using Clean.Application.Services;
 using Clean.Infrastructure.Data;
 using Clean.Infrastructure.LoggerServices;
 using Clean.Infrastructure.Models;
+using Clean.Infrastructure.Repositories;
+using Clean.Presentation.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -62,6 +66,8 @@ namespace Clean.Presentation.Extensions
         public static void AddDependencyInjection(this IServiceCollection services)
         {
             services.AddScoped<ILoggerManager, LoggerManager>();
+            services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<ITokenServices, TokenServices>();
         }
     }
 }

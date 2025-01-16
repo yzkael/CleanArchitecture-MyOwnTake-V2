@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Clean.Presentation.Controllers
 {
     [ApiController]
-    [Route("/api/auth/")]
+    [Route("/api/auth")]
     public class AuthControllers : ControllerBase
     {
         private readonly IAuthRepository _authRepo;
@@ -27,18 +27,26 @@ namespace Clean.Presentation.Controllers
         [Route("login")]
         public async Task<IActionResult> Login(LoginRequestDto loginModel)
         {
-            LoginResponseDto loginResponse = await _authRepo.Login(loginModel);
-            if (!loginResponse.Succeded) return BadRequest("Wrong Username or Password");
-            string accessToken = _tokenServices.PopulateAccessToken(loginResponse);
-            string refreshToken = _tokenServices.PopulateRefreshToken(loginResponse);
-            HttpContext.Response.Cookies.Append("refresh_token", refreshToken, new CookieOptions
+            try
             {
-                HttpOnly = true,
-                SameSite = SameSiteMode.None,
-                Secure = false,  //For dev purposes
-                Expires = DateTime.Now.AddDays(7)
-            });
-            return Ok(new { AccessToken = accessToken });
+                LoginResponseDto loginResponse = await _authRepo.Login(loginModel);
+                if (!loginResponse.Succeded) return BadRequest("Wrong Username or Password");
+                string accessToken = _tokenServices.PopulateAccessToken(loginResponse);
+                string refreshToken = _tokenServices.PopulateRefreshToken(loginResponse);
+                HttpContext.Response.Cookies.Append("refresh_token", refreshToken, new CookieOptions
+                {
+                    HttpOnly = true,
+                    SameSite = SameSiteMode.None,
+                    Secure = false,  //For dev purposes
+                    Expires = DateTime.Now.AddDays(7)
+                });
+                return Ok(new { AccessToken = accessToken });
+            }
+            catch (System.Exception)
+            {
+                return StatusCode(500, "Internal Server Error");
+            }
+
         }
     }
 }
