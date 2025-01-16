@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Clean.Application.Interfaces;
 using Clean.Contracts.RequestModel;
 using Clean.Contracts.ResponseModel;
-using Clean.Domain.Entities.AuthRelatedEntities;
 using Clean.Infrastructure.Data;
+using Clean.Infrastructure.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,7 +25,7 @@ namespace Clean.Infrastructure.Repositories
 
         public async Task<LoginResponseDto> Login(LoginRequestDto loginModel)
         {
-            var foundUser = await _userManager.Users.FirstOrDefaultAsync(u => u.Username == loginModel.Username);
+            var foundUser = await _userManager.Users.FirstOrDefaultAsync(u => u.UserName == loginModel.Username);
             if (foundUser == null) return new LoginResponseDto();
 
             var passwordMatch = await _userManager.CheckPasswordAsync(foundUser, loginModel.Password);

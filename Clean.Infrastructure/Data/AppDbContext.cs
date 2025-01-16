@@ -7,6 +7,7 @@ using Clean.Infrastructure.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace Clean.Infrastructure.Data
 {
@@ -17,11 +18,12 @@ namespace Clean.Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfiguration(new PersonaConfiguration());
-
-            //Initial Seeder
+            builder.ApplyConfiguration(new UsuarioConfiguration());
 
             var newPersona = new Persona
             {
+
+                Id = 1,
                 Nombre = "Ismael",
                 ApellidoPaterno = "Moron",
                 ApellidoMaterno = "Pedraza",
@@ -35,6 +37,7 @@ namespace Clean.Infrastructure.Data
                 UserName = "ismael",
                 PasswordHash = passwordHasher.HashPassword(null!, "123456"),
                 PersonaId = newPersona.Id
+
             };
             builder.Entity<Usuario>().HasData(newUsuario);
             var newCargo = new Cargo
@@ -54,9 +57,16 @@ namespace Clean.Infrastructure.Data
             base.OnModelCreating(builder);
         }
 
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.ConfigureWarnings(warnings =>
+                warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
+        }
         public DbSet<Usuario> Usuarios { get; set; } = null!;
         public DbSet<Cargo> Cargos { get; set; } = null!;
         public DbSet<CargoAsignado> CargoAsignados { get; set; } = null!;
         public DbSet<Persona> Personas { get; set; } = null!;
     }
+
 }

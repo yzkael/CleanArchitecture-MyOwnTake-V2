@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Clean.Domain.Entities.AuthRelatedEntities
 {
-    public class Usuario
+    public class UsuarioBase
     {
         public string Username { get; set; } = null!;
         public string Password { get; set; } = null!;

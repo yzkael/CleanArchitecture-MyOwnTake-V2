@@ -19,9 +19,6 @@ namespace Clean.Infrastructure.Data.Configurations
             {
                 builder.Property(propertyName).IsRequired();
             }
-
-
-            throw new NotImplementedException();
         }
     }
 }
